@@ -1,0 +1,1 @@
+exports.WalletService = require('./WalletService');

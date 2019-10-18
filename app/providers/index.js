@@ -1,0 +1,1 @@
+exports.LocalProvider = require('./LocalProvider');

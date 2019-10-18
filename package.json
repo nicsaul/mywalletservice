@@ -1,0 +1,40 @@
+{
+  "author": "Nicolas Saul <nisaul@protonmail.com>",
+  "version": "0.0.1",
+  "name": "mywallet-service",
+  "description": "Self-hosted wallet service",
+  "main": "app/server.js",
+  "scripts": {
+    "dev": "node --require dotenv/config app/server.js",
+    "prod": "node app/server.js",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bitcoinjs-lib": "^5.1.6",
+    "bluebird": "3.5.5",
+    "dotenv": "8.0.0",
+    "express": "4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.3.1",
+    "jsonschema": "1.2.4",
+    "jwks-rsa": "^1.6.0",
+    "mongoose": "5.6.6",
+    "regtest-client": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-preset-es2017": "^6.24.1",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "jest-environment-node": "^24.8.0",
+    "mongodb-memory-server": "^5.1.9",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "globalSetup": "./config/jest/setup.js",
+    "globalTeardown": "./config/jest/teardown.js",
+    "testEnvironment": "./config/jest/MongoEnvironment.js"
+  }
+}
