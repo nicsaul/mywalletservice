@@ -20,7 +20,7 @@
     "express-jwt-authz": "^2.3.1",
     "jsonschema": "1.2.4",
     "jwks-rsa": "^1.6.0",
-    "mongoose": "5.6.6",
+    "mongoose": "5.7.5",
     "regtest-client": "^0.2.0"
   },
   "devDependencies": {
