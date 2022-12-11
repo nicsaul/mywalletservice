@@ -15,7 +15,7 @@
     "bitcoinjs-lib": "^5.1.6",
     "bluebird": "3.5.5",
     "dotenv": "8.0.0",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "express-jwt": "^5.3.1",
     "express-jwt-authz": "^2.3.1",
     "jsonschema": "1.2.4",
